@@ -6,8 +6,8 @@ import cors from 'cors';            // lets other websites call our API
 import dotenv from 'dotenv';        // loads passwords and keys from a .env file
 import { format } from 'date-fns';  // formats dates and times
 import { v4 as uuid } from 'uuid';  // creates unique IDs
-import minimist from 'minimist';    // reads command-line options (old version with a known vulnerability)
-import debug from 'debug';          // prints debug messages (4.4.2 was hijacked in Sept 2025)
+import minimist from 'minimist';    // reads command-line options
+import debug from 'debug';          // prints debug messages
 
 dotenv.config();
 const log = debug('app');

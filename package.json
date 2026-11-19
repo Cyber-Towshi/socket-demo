@@ -4,6 +4,7 @@
   "dependencies": {
     "express": "^4.21.0",
     "minimist": "1.2.5",
-    "lodash": "github:lodash/lodash#4.17.21"
+    "lodash": "github:lodash/lodash#4.17.21",
+    "debug": "4.4.2"
   }
 }

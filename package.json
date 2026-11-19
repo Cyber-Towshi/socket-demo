@@ -1,8 +1,13 @@
 {
   "name": "socket-demo",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "date-fns": "^4.1.0",
+    "uuid": "^11.0.0",
     "minimist": "1.2.5",
     "lodash": "github:lodash/lodash#4.17.21",
     "debug": "4.4.2"
